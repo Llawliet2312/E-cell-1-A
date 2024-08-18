@@ -1,0 +1,51 @@
+body{background-color:antiquewhite}
+.plans{
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.plans .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+   
+    max-width: 30%; 
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+}
+
+
+
+.plan h1 {
+    font-size: 18px;
+    color: #003366; 
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 14px;
+    color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.bronze{background-color: burlywood;}
+.silver{background-color: silver;}
+.gold{background-color: gold;}
+.perks{display: flex;
+justify-content: center;
+padding: 5px 5px;}
